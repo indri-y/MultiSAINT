@@ -4,7 +4,7 @@
 Paper currently under review at IEEE Access.
 
 ## Code Availability
-The source code and trained models will be released upon paper acceptance.
+The source code and trained models will be released upon paper publication.
 
 ## Authors
 - Indri Yanti - Universitas Gadjah Mada
