@@ -1,0 +1,27 @@
+network:
+  - dim: 64
+    aggr: concat
+    loss: softmax
+    arch: 1-1-1
+    act: relu
+    bias: norm-nn
+    inception_type: standard
+    max_order: 3
+    reduction_ratio: 4
+    use_attention: true
+    use_focal_loss: true
+    focal_gamma: 2.0
+    focal_alpha: 0.75
+    focal_beta: 1.0
+
+params:
+  - lr: 0.01
+    dropout: 0.3
+    weight_decay: 0.0
+    sample_coverage: 1000
+    eval_val_every: 1
+
+phase:
+  - end: 200
+    sampler: edge
+    size_subg_edge: 5000
