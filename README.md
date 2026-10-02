@@ -34,7 +34,7 @@ python -m graphsaint.pytorch_version.train_inception \
 
 ## Trained Models
 
-Checkpoints for Config-6 (5 seeds) are available under [Releases](https://github.com/indri-y/MultiSAINT/releases).
+Trained models will be added soon.
 
 ## Notes
 
